@@ -18,11 +18,8 @@ BattleManager.displayStartMessages = function() {
     $gameTroop.enemyNames().forEach(function(name) {
         // Execute this function on each enemy name in the troop.
         // Put your chosen emerge text for an enemy here.
-        if (name == "Name_of_Enemy") {                          // Example
-            $gameMessage.add("It's coming straight for us!!");
-        }
-        else if (name == "Richard") {
-            $gameMessage.add("TA Richard is haranguing you for homework!");
+        if (name == "Frosty") {
+            $gameMessage.add("A snowman is rolling towards you.")
         }
         else {
             // Failsafe

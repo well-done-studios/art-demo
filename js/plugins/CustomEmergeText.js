@@ -21,6 +21,9 @@ BattleManager.displayStartMessages = function() {
         if (name == "Frosty") {
             $gameMessage.add("A snowman is rolling towards you.")
         }
+        else if (name == "Richard") {
+            $gameMessage.add("Teaching Assistant Richard is haranguing \nyou for homework!");
+        }
         else {
             // Failsafe
             $gameMessage.add(TextManager.emerge.format(name));
